@@ -50,15 +50,15 @@ const textNodes = [
         options: [
             {
                 text: 'option1',
-                nextText: () => [1, 2, 3][Math.floor(Math.random() * 3)]
+                nextText: () => [2, 3, 4][Math.floor(Math.random() * 3)]
             },
             {
                 text: 'option2',
-                nextText: () => [4, 5, 6][Math.floor(Math.random() * 3)]
+                nextText: () => [5, 6, 7][Math.floor(Math.random() * 3)]
             },
             {
                 text: 'option3',
-                nextText: () => [7, 8, 9][Math.floor(Math.random() * 3)]
+                nextText: () => [8, 9, 10][Math.floor(Math.random() * 3)]
             },
         ]
     },
@@ -142,6 +142,16 @@ const textNodes = [
             }
         ]
     },
+    {
+        id: 10,
+        text: 'tenth text',
+        options: [
+            {
+                text: 'Restart',
+                nextText: -1
+            }
+        ]
+    }
 ]
 
 startGame()
