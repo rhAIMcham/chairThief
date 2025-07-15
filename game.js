@@ -46,25 +46,25 @@ function selectOption(option){
 const textNodes = [
     {
         id: 1,
-        text: 'first text',
+        text: 'Someone has stolen your customised office chair. You ordered it specially to accomodate your lower back injury and need it to work safely and comfortably. You can...',
         options: [
             {
-                text: 'option1',
+                text: 'Politely ask why they took your chair specifically, and see if your office manager can source a second one for them.',
                 nextText: () => [2, 3, 4][Math.floor(Math.random() * 3)]
             },
             {
-                text: 'option2',
+                text: 'Steal the chair back when they are in the bathroom.',
                 nextText: () => [5, 6, 7][Math.floor(Math.random() * 3)]
             },
             {
-                text: 'option3',
+                text: 'Spread malicious gossip about them to your coworkers and hope they quit.',
                 nextText: () => [8, 9, 10][Math.floor(Math.random() * 3)]
             },
         ]
     },
     {
         id: 2,
-        text: 'second text',
+        text: 'They are embarrassed and did not realise you had a specialised chair. They return it and wait for the new one for them to arrive.',
         options: [
             {
                 text: 'Restart',
@@ -74,7 +74,7 @@ const textNodes = [
     },
     {
         id: 3,
-        text: 'third text',
+        text: 'They begrudgingly return it, but you can tell they are not happy you complained.',
         options: [
             {
                 text: 'Restart',
@@ -84,7 +84,7 @@ const textNodes = [
     },
     {
         id: 4,
-        text: 'fourth text',
+        text: 'They deny any knowledge of your chair. They claim it was always their chair, and that you are creating a problem out of nothing.',
         options: [
             {
                 text: 'Restart',
@@ -94,7 +94,7 @@ const textNodes = [
     },
     {
         id: 5,
-        text: 'fifth text',
+        text: 'They return from the bathroom and are perplexed, but take another unremarkable chair from an empty desk and continue working.',
         options: [
             {
                 text: 'Restart',
@@ -104,7 +104,7 @@ const textNodes = [
     },
     {
         id: 6,
-        text: 'sixth text',
+        text: 'They return from the bathroom and approach your desk, asking if there is a specific reason you always get the best chair, despite other chairs being more ‘up for grabs’.',
         options: [
             {
                 text: 'Restart',
@@ -114,7 +114,7 @@ const textNodes = [
     },
     {
         id: 7,
-        text: 'seventh text',
+        text: 'They return from the bathroom and look visibly annoyed. They use another chair and a new email is in your inbox immediately, manager ccd in.',
         options: [
             {
                 text: 'Restart',
@@ -124,7 +124,7 @@ const textNodes = [
     },
     {
         id: 8,
-        text: 'eighth text',
+        text: 'The chair thief seems completely oblivious to their new status as office pariah. They are still using your chair.',
         options: [
             {
                 text: 'Restart',
@@ -134,7 +134,7 @@ const textNodes = [
     },
     {
         id: 9,
-        text: 'ninth text',
+        text: 'The chair thief has had a meeting with your manager. After the meeting concludes, you hear they were given a warning by HR but your chair has not been returned yet. ',
         options: [
             {
                 text: 'Restart',
@@ -144,7 +144,7 @@ const textNodes = [
     },
     {
         id: 10,
-        text: 'tenth text',
+        text: 'Your other coworkers are completely unimpressed by your gossip, and see you as untrustworthy and irritating.',
         options: [
             {
                 text: 'Restart',
